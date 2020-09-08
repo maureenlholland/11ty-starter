@@ -3,7 +3,7 @@
 ## To-Do
 - ~Add package.json and 11ty dep~
 - ~Add gitignore~
-- Add index and 404
+- ~Add index and 404~
 - Add prettier config
 - Add eslint config
 - Add jest config
