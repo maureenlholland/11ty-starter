@@ -21,3 +21,7 @@
     - module transformer
     - live reload
     - HMR
+
+    ## Thanks
+    All the folks who contribute to [11ty docs](https://www.11ty.dev/docs/)
+    - [Create 404 page](https://www.11ty.dev/docs/quicktips/not-found/)
