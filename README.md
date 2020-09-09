@@ -5,8 +5,9 @@
 - ~Add package.json and 11ty dep~
 - ~Add gitignore~
 - ~Add index and 404~
-- Add prettier config
-- Add eslint config
+- ~Add prettier config~
+- ~Add eslint config~
+- ~(new) Add husky config~
 - Add jest config
 - Add sass
     - Add [Gorko](https://github.com/hankchizljaw/gorko) for powerful design system config
