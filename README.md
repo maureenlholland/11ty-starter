@@ -1,6 +1,7 @@
 # 11ty Starter
 
 ## To-Do
+
 - ~Add package.json and 11ty dep~
 - ~Add gitignore~
 - ~Add index and 404~
@@ -22,6 +23,11 @@
     - live reload
     - HMR
 
-    ## Thanks
-    All the folks who contribute to [11ty docs](https://www.11ty.dev/docs/)
-    - [Create 404 page](https://www.11ty.dev/docs/quicktips/not-found/)
+## Thanks
+
+All the folks who contribute to [11ty docs](https://www.11ty.dev/docs/)
+- [Create 404 page](https://www.11ty.dev/docs/quicktips/not-found/)
+
+11ty Starter Goldmine
+- [Hylia](https://github.com/hankchizljaw/hylia/)
+- [Eleventastic](https://github.com/maxboeck/eleventastic)

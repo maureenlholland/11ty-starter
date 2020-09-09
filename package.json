@@ -1,23 +1,36 @@
 {
-  "name": "11ty-starter",
-  "version": "1.0.0",
-  "description": "Starter Kit for 11ty sites",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maureenlholland/11ty-starter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maureenlholland/11ty-starter/issues"
-  },
-  "homepage": "https://github.com/maureenlholland/11ty-starter#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^0.11.0"
-  }
+    "name": "11ty-starter",
+    "version": "1.0.0",
+    "description": "Starter Kit for 11ty sites",
+    "main": "index.js",
+    "scripts": {
+        "eslint": "eslint .",
+        "fix-eslint": "npm run eslint -- --fix",
+        "prettier": "prettier \"**/*.+(js|json|html|md)\"",
+        "fix-prettier": "npm run prettier -- --write",
+        "validate": "concurrently npm:fix-*",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maureenlholland/11ty-starter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maureenlholland/11ty-starter/issues"
+    },
+    "homepage": "https://github.com/maureenlholland/11ty-starter#readme",
+    "dependencies": {
+        "@11ty/eleventy": "^0.11.0",
+        "concurrently": "^5.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.2.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.0",
+        "husky": "^4.3.0",
+        "prettier": "^2.1.1"
+    }
 }
